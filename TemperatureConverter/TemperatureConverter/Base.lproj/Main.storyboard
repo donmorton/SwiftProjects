@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TemperateConverter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter C" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kEb-kJ-EgI">
+                                <rect key="frame" x="127.5" y="238.5" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="bJX-Bb-WeW"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2D-81-W88">
+                                <rect key="frame" x="116.5" y="288.5" width="142" height="41"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <state key="normal" title="Convert to F">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hc1-7R-Vm0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRD-X6-1Oa">
+                                <rect key="frame" x="131.5" y="349.5" width="113" height="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 conversions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvf-HK-umN">
+                                <rect key="frame" x="20" y="28" width="120" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="50j-fE-QKh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25119755023435419" green="0.44515722981430361" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Vvf-HK-umN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="15X-r4-3cX"/>
+                            <constraint firstItem="Vvf-HK-umN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="3CD-GG-fW5"/>
+                            <constraint firstItem="kEb-kJ-EgI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIb-B5-qvs"/>
+                            <constraint firstItem="Vvf-HK-umN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="K3V-hN-Wvo"/>
+                            <constraint firstItem="a2D-81-W88" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KWM-aN-5BY"/>
+                            <constraint firstItem="kEb-kJ-EgI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VcM-6Z-Dah"/>
+                            <constraint firstItem="ZRD-X6-1Oa" firstAttribute="top" secondItem="a2D-81-W88" secondAttribute="bottom" constant="20" id="WXq-DX-hzg"/>
+                            <constraint firstItem="ZRD-X6-1Oa" firstAttribute="top" secondItem="a2D-81-W88" secondAttribute="bottom" constant="40" id="bZg-7C-GgD"/>
+                            <constraint firstItem="Vvf-HK-umN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="f7A-bJ-9et"/>
+                            <constraint firstItem="kEb-kJ-EgI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="fQP-am-Qny"/>
+                            <constraint firstItem="kEb-kJ-EgI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ffz-Q1-2IN"/>
+                            <constraint firstItem="Vvf-HK-umN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="gHr-ze-mkD"/>
+                            <constraint firstItem="ZRD-X6-1Oa" firstAttribute="top" secondItem="a2D-81-W88" secondAttribute="bottom" constant="20" id="hGW-6u-Ojh"/>
+                            <constraint firstItem="ZRD-X6-1Oa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nJp-s4-q58"/>
+                            <constraint firstItem="a2D-81-W88" firstAttribute="top" secondItem="kEb-kJ-EgI" secondAttribute="bottom" constant="20" id="vK7-mh-xRM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numConv" destination="Vvf-HK-umN" id="h6y-q1-jiI"/>
+                        <outlet property="tempEntry" destination="kEb-kJ-EgI" id="DXA-bO-FRB"/>
+                        <outlet property="tempLabel" destination="ZRD-X6-1Oa" id="V4C-tv-ynO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

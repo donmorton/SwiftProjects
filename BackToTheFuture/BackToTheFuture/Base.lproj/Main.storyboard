@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Time Now-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="BackToTheFuture" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ape-ef-4Jd">
+                                <rect key="frame" x="85.5" y="311.5" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.4131910924820511" green="1" blue="0.25339303239533706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="BMm-Ns-hYa"/>
+                                    <constraint firstAttribute="height" constant="44" id="zMw-iZ-ete"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261184897987" green="0.77839083330891656" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXg-49-NFy">
+                                <rect key="frame" x="137" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="R5X-fO-BFl"/>
+                                    <constraint firstAttribute="height" constant="44" id="gz3-Nh-SUc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFm-Ip-vaJ">
+                                <rect key="frame" x="241" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jXN-9W-PUe"/>
+                                    <constraint firstAttribute="width" constant="44" id="jqe-XM-a6Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9j-RM-wyB">
+                                <rect key="frame" x="112.5" y="395.5" width="150" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="UNc-fH-9J0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZo-qa-eFu">
+                                <rect key="frame" x="189" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="T9t-fj-LOo"/>
+                                    <constraint firstAttribute="height" constant="44" id="qYY-S5-o6U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.90088561576710813" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WZo-qa-eFu" firstAttribute="top" secondItem="ape-ef-4Jd" secondAttribute="top" id="4jQ-aa-Qfi"/>
+                            <constraint firstItem="ape-ef-4Jd" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-80" id="6NN-yM-l5b"/>
+                            <constraint firstItem="P9j-RM-wyB" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="8Nd-ee-5Bq"/>
+                            <constraint firstItem="wXg-49-NFy" firstAttribute="top" secondItem="ape-ef-4Jd" secondAttribute="top" id="A9b-i6-QEC"/>
+                            <constraint firstItem="ape-ef-4Jd" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="FON-UI-LZm"/>
+                            <constraint firstItem="EFm-Ip-vaJ" firstAttribute="top" secondItem="ape-ef-4Jd" secondAttribute="top" id="J0Y-aF-YeQ"/>
+                            <constraint firstItem="P9j-RM-wyB" firstAttribute="top" secondItem="ape-ef-4Jd" secondAttribute="bottom" constant="40" id="T03-dQ-wr4"/>
+                            <constraint firstItem="EFm-Ip-vaJ" firstAttribute="leading" secondItem="WZo-qa-eFu" secondAttribute="trailing" constant="8" id="a2W-9Q-6MX"/>
+                            <constraint firstItem="WZo-qa-eFu" firstAttribute="leading" secondItem="wXg-49-NFy" secondAttribute="trailing" constant="8" id="hXV-vo-VfN"/>
+                            <constraint firstItem="wXg-49-NFy" firstAttribute="leading" secondItem="ape-ef-4Jd" secondAttribute="trailing" constant="8" id="pMD-gF-V3t"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Time Now" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="label1" destination="ape-ef-4Jd" id="mpO-Dh-4Kl"/>
+                        <outlet property="label2" destination="wXg-49-NFy" id="lpi-9b-dZg"/>
+                        <outlet property="label3" destination="WZo-qa-eFu" id="Ta2-5T-HMa"/>
+                        <outlet property="label4" destination="EFm-Ip-vaJ" id="MIo-xV-LtU"/>
+                        <outlet property="timeLabel" destination="P9j-RM-wyB" id="nW1-59-Cd0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Time Travel-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="BackToTheFuture" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnW-zh-MEy">
+                                <rect key="frame" x="85.5" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0fM-Wj-ViX"/>
+                                    <constraint firstAttribute="width" constant="44" id="pLx-ZX-jt3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8R2-JM-MOj">
+                                <rect key="frame" x="137.5" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4j2-JT-4Qr"/>
+                                    <constraint firstAttribute="width" constant="44" id="hdt-8x-RlY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4D8-Uj-UCZ">
+                                <rect key="frame" x="189.5" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="LdX-Pm-DXK"/>
+                                    <constraint firstAttribute="height" constant="44" id="uIJ-8s-01Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60W-xC-XZh">
+                                <rect key="frame" x="241.5" y="311" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.41319109250000002" green="1" blue="0.2533930324" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="YIy-EA-b7S"/>
+                                    <constraint firstAttribute="width" constant="44" id="zTe-K7-uU8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="0.27281261179999999" green="0.77839083330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5V-Zj-nG4">
+                                <rect key="frame" x="127" y="388" width="120" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="FdU-aH-m1C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <state key="normal" title="GO DOC!"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="CvN-f0-gJ8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8R2-JM-MOj" firstAttribute="leading" secondItem="NnW-zh-MEy" secondAttribute="trailing" constant="8" id="72H-OS-gKw"/>
+                            <constraint firstItem="NnW-zh-MEy" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="GTy-XR-VTo"/>
+                            <constraint firstItem="60W-xC-XZh" firstAttribute="leading" secondItem="4D8-Uj-UCZ" secondAttribute="trailing" constant="8" id="GnU-hx-ngd"/>
+                            <constraint firstItem="4D8-Uj-UCZ" firstAttribute="leading" secondItem="8R2-JM-MOj" secondAttribute="trailing" constant="8" id="HDe-fI-ra7"/>
+                            <constraint firstItem="f5V-Zj-nG4" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="UQ7-ad-pXg"/>
+                            <constraint firstItem="4D8-Uj-UCZ" firstAttribute="top" secondItem="NnW-zh-MEy" secondAttribute="top" id="ZsQ-IS-AsE"/>
+                            <constraint firstItem="8R2-JM-MOj" firstAttribute="top" secondItem="NnW-zh-MEy" secondAttribute="top" id="qUY-cd-OW6"/>
+                            <constraint firstItem="NnW-zh-MEy" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="-80" id="qcC-RL-jc4"/>
+                            <constraint firstItem="60W-xC-XZh" firstAttribute="top" secondItem="NnW-zh-MEy" secondAttribute="top" id="sfS-Gi-4jY"/>
+                            <constraint firstItem="f5V-Zj-nG4" firstAttribute="top" secondItem="NnW-zh-MEy" secondAttribute="bottom" constant="33" id="zbE-Th-y0b"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Time Travel" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="label1" destination="NnW-zh-MEy" id="dOd-5Z-WMe"/>
+                        <outlet property="label2" destination="8R2-JM-MOj" id="VUe-Fy-VLS"/>
+                        <outlet property="label3" destination="4D8-Uj-UCZ" id="Poz-dT-ajv"/>
+                        <outlet property="label4" destination="60W-xC-XZh" id="SNN-si-6NV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
