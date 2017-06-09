@@ -1,0 +1,1 @@
+A Collection of Swift Projects that were made in hopes of getting a better understanding of the language
